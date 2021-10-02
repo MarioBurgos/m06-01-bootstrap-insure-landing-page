@@ -1,0 +1,23 @@
+{
+  "name": "m06-01-bootstrap-insure-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/MarioBurgos/m06-01-bootstrap-insure-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarioBurgos/m06-01-bootstrap-insure-landing-page/issues"
+  },
+  "homepage": "https://github.com/MarioBurgos/m06-01-bootstrap-insure-landing-page#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.1"
+  }
+}
