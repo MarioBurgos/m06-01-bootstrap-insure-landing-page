@@ -8,8 +8,8 @@ $layoutDesktop: 1440px;
 
 /*Primary*/
 
-$darkViolet: hsl(256, 26%, 20%);
-$grayishBlue: hsl(216, 30%, 68%);
+$primary: hsl(256, 26%, 20%);
+$secondary: hsl(216, 30%, 68%);
 
 /*Neutral*/
 
@@ -43,21 +43,32 @@ $bodyFW: 400,
     }
 }
 
+
+/*Overidden*/
+
+.text-justify {
+    text-align: justify;
+}
+
+
+/*Custom*/
+
 .bg-darkviolet {
-    background-color: $darkViolet;
+    background-color: $primary;
 }
 
 .bg-pattern-intro-right-desktop {
     background-image: url("../img/bg-pattern-intro-right-desktop.svg");
-    background-position: 100% 0%;
+    background-position: 100% -50%;
     background-repeat: no-repeat;
-    background-size: 20%;
+    background-size: 25%;
 }
 
 .bg-pattern-intro-left-desktop {
     background-image: url("../img/bg-pattern-intro-left-desktop.svg");
-    background-position: 0% 25%;
+    background-position: 0% 1000%;
     background-repeat: no-repeat;
+    background-size: 15%;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
