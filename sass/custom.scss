@@ -1,7 +1,63 @@
-@media (min-width: 576px) {
+/*Layout*/
+
+$layoutMobile: 375px;
+$layoutDesktop: 1440px;
+
+/*Colors*/
+
+
+/*Primary*/
+
+$darkViolet: hsl(256, 26%, 20%);
+$grayishBlue: hsl(216, 30%, 68%);
+
+/*Neutral*/
+
+$veryDarkViolet: hsl(270, 9%, 17%);
+$darkGrayishViolet: hsl(273, 4%, 51%);
+$veryLightGray: hsl(0, 0%, 98%);
+
+/*Typo*/
+
+$bodyFS: 16px;
+
+/*Headings*/
+
+$headingsFF: "[DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display)";
+$headingsFW: 400;
+
+/*Body*/
+
+$bodyFF: "[Karla](https://fonts.google.com/specimen/Karla)";
+$bodyFW: 400,
+700;
+
+/*Icons
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com)*/
+
+@media (min-width: 768px) {
     .alto-100 {
         height: 100vh;
     }
+}
+
+.bg-darkviolet {
+    background-color: $darkViolet;
+}
+
+.bg-pattern-intro-right-desktop {
+    background-image: url("../img/bg-pattern-intro-right-desktop.svg");
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+
+.bg-pattern-intro-left-desktop {
+    background-image: url("../img/bg-pattern-intro-left-desktop.svg");
+    background-position: 0% 25%;
+    background-repeat: no-repeat;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
