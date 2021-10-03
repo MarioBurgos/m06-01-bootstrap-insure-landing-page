@@ -20,15 +20,19 @@ $veryLightGray: hsl(0, 0%, 98%);
 /*Typo*/
 
 $bodyFS: 16px;
+$bodyFF: 'Karla',
+sans-serif;
 
 /*Headings*/
 
-$headingsFF: "[DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display)";
+$headingsFF: 'DM Serif Display',
+serif;
 $headingsFW: 400;
 
 /*Body*/
 
-$bodyFF: "[Karla](https://fonts.google.com/specimen/Karla)";
+$bodyFF: 'Karla',
+sans-serif;
 $bodyFW: 400,
 700;
 
@@ -46,12 +50,38 @@ $bodyFW: 400,
 
 /*Overidden*/
 
-.text-justify {
-    text-align: justify;
+.navbar-toggler-icon {
+    color: $primary;
+}
+
+.h1 {
+    font-family: $headingsFF;
 }
 
 
 /*Custom*/
+
+.text-justify {
+    text-align: justify;
+}
+
+.cust-text {
+    font-family: $bodyFF;
+}
+
+.footer-titles {
+    color: $darkGrayishViolet;
+}
+
+.footer-links a:link {
+    color: $primary;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: green;
+    text-decoration: underline;
+}
 
 .bg-darkviolet {
     background-color: $primary;
@@ -59,16 +89,22 @@ $bodyFW: 400,
 
 .bg-pattern-intro-right-desktop {
     background-image: url("../img/bg-pattern-intro-right-desktop.svg");
-    background-position: 100% -50%;
+    background-position: 100% 0%;
     background-repeat: no-repeat;
     background-size: 25%;
 }
 
 .bg-pattern-intro-left-desktop {
     background-image: url("../img/bg-pattern-intro-left-desktop.svg");
-    background-position: 0% 1000%;
+    background-position: 0% 25%;
     background-repeat: no-repeat;
-    background-size: 15%;
+    background-size: 50%;
+}
+
+.bg-pattern-footer-desktop {
+    background-image: url("../img/bg-pattern-footer-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 35%;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

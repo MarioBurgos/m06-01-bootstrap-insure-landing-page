@@ -7,28 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insure landing page</title>
     <link rel="stylesheet" href="./css/custom.css">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
 </head>
 
 <body class="container-fluid alto-100 p-0">
     <!-- Navbar -->
     <header>
-        <nav class="navbar navbar-expand-md navbar-white bg-white">
-            <div class="container">
+        <nav class="navbar navbar-expand-md bg-light cust-text">
+            <div class="container px-5">
                 <a class="navbar-brand" href="#"><img src="./img/logo.svg" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"><i class="fas fa-align-justify "></i></span>
               </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar-nav-scroll">
-                        <li class="nav-item me-4">
+                    <ul class="navbar-nav ms-auto mb-2 navbar-nav-scroll">
+                        <li class="nav-item me-3">
                             <a class="nav-link active" aria-current="page" href="#">HOW WE WORK</a>
                         </li>
-                        <li class="nav-item me-4">
+                        <li class="nav-item me-3">
                             <a class="nav-link" href="#">BLOG</a>
                         </li>
-                        <li class="nav-item me-4">
+                        <li class="nav-item me-3">
                             <a class="nav-link" href="#">ACCOUNT</a>
-                        </li><button class="btn btn-outline-dark" type="submit">VIEW PLANS</button>
+                        </li><button class="btn btn-outline-dark me-5" type="submit">VIEW PLANS</button>
                     </ul>
                 </div>
             </div>
@@ -37,77 +44,117 @@
     <!-- Main -->
     <main>
         <!-- Article -->
-        <article class="container-fluid bg-primary bg-pattern-intro-right-desktop">
-            <div class="row pt-5 bg-pattern-intro-left-desktop ">
-                <div class="col-lg-4 ms-auto ">
-                    <div class="row">
-                        <div class="col-4 ">
-                            <hr class="text-white">
-                        </div>
+        <article class="container-fluid bg-primary bg-pattern-intro-right-desktop p-0">
+            <!-- TODO: add second bg-pattern-intro-left-desktop -->
+            <div class="container p-5">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <h1 class="h1 text-white">Humanizing your insurance.</h1>
+                        <p class="cust-text text-white text-justify me-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quisquam nulla eos illo labore! Itaque doloremque delectus vero, explicabo, eos minima veritatis nesciunt corporis asperiores reprehenderit dicta expedita ipsam officia.</p>
+                        <button class="btn btn-outline-light my-3 cust-text" type="submit">VIEW PLANS</button>
                     </div>
-                    <h1 class="text-white">Humanizing your insurance.</h1>
-                    <p class="text-white text-justify me-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quisquam nulla eos illo labore! Itaque doloremque delectus vero, explicabo, eos minima veritatis nesciunt corporis asperiores reprehenderit dicta expedita ipsam officia.</p>
-                    <button class="btn btn-outline-light my-3" type="submit">VIEW PLANS</button>
-                </div>
-                <div class="col-lg-4 me-auto">
-                    <img src="./img/image-intro-desktop.jpg" class="img-fluid" alt="">
+                    <div class="col-lg-6 col-md-12">
+                        <img src="./img/image-intro-desktop.jpg" class="img-fluid" alt="">
+                    </div>
                 </div>
             </div>
+
+            </div>
+            </div>
+
         </article>
         <!-- Article -->
-        <article class="container-fluid">
-            <div class="row pt-5">
-                <div class="col-lg-4 ms-auto ">
-                    <div class="row">
-                        <div class="col-4">
-                            <hr class="text-primary">
-                        </div>
-                    </div>
-                    <h1 class="text-primary">We're different</h1>
-                </div>
-                <div class="col-lg-4 me-auto ">
-                </div>
+        <article class="container p-5">
+            <div class="row">
+                <h1 class="h1 text-primary">We're different</h1>
             </div>
-            <div class="row pt-2">
-                <div class="col-2 mx-auto">
+            <div class="row py-5 cust-text text-primary">
+                <section class="col-lg-4 col-md-12">
+                    <img src="./img/icon-snappy-process.svg" class="rounded" alt="">
+                    <p class="h3 text-primary text-justify mt-4">Snappy Process</p>
+                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quae recusandae excepturi. Alias, voluptatum? Quia laborum sint et laboriosam incidunt fugiat eaque soluta omnis! Perspiciatis assumenda nemo vel culpa impedit.</p>
+                </section>
+                <section class="col-lg-4 col-md-12">
+                    <img src="./img/icon-affordable-prices.svg" class="rounded" alt="">
+                    <p class="h3 text-primary mt-4">Affordable Prices</p>
+                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius amet, culpa repellat unde eligendi fuga exercitationem consectetur impedit dolore delectus beatae. Totam eveniet numquam doloremque nemo ratione. Tempora, reiciendis maiores?
+                    </p>
+                </section>
+                <section class="col-lg-4 col-md-12">
+                    <img src="./img/icon-people-first.svg" class="rounded" alt="">
+                    <p class="h3 text-primary mt-4">People First</p>
+                    <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error facere ipsum vel maxime eum, ab nesciunt natus expedita, eos nobis illo exercitationem consectetur et inventore dignissimos placeat aut quia accusantium?</p>
+                </section>
+            </div>
+            <section class="row bg-primary my-5 p-5 bg-pattern-intro-right-desktop">
+                <div class="col-lg-10 col-md-12">
+                    <h1 class="h1 text-white px-5">Find out more about how we work</h1>
                 </div>
-                <div class="col-8 mx-auto">
-                    <div class="row py-5 text-primary">
-                        <section class="col-4">
-                            <img src="./img/icon-snappy-process.svg" class="rounded" alt="">
-                            <p class="h3 text-primary text-justify mt-4">Snappy Process</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quae recusandae excepturi. Alias, voluptatum? Quia laborum sint et laboriosam incidunt fugiat eaque soluta omnis! Perspiciatis assumenda nemo vel culpa impedit.</p>
-                        </section>
-                        <section class="col-4">
-                            <img src="./img/icon-affordable-prices.svg" class="rounded" alt="">
-                            <p class="h3 text-primary text-justify mt-4">Affordable Prices</p>
-                            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius amet, culpa repellat unde eligendi fuga exercitationem consectetur impedit dolore delectus beatae. Totam eveniet numquam doloremque nemo ratione. Tempora, reiciendis
-                                maiores?
-                            </p>
-                        </section>
-                        <section class="col-4">
-                            <img src="./img/icon-people-first.svg" class="rounded" alt="">
-                            <p class="h3 text-primary text-justify mt-4">People First</p>
-                            <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error facere ipsum vel maxime eum, ab nesciunt natus expedita, eos nobis illo exercitationem consectetur et inventore dignissimos placeat aut quia accusantium?</p>
-                        </section>
-                    </div>
-                    <section class="row bg-primary my-5">
-                        <div class="col-7">
-                            <div class="card bg-primary text-white p-5">
-                                <p class="h2">Find out more about how we work</p>
-                            </div>
-                        </div>
-                        <div class="col-5 bg-pattern-intro-right-desktop p-5 text-center">
-                            <button class="btn btn-outline-light">HOW WE WORK</button>
-                        </div>
-                    </section>
+                <div class="col-lg-2 col-md-12">
+                    <button class="btn btn-outline-light cust-text">HOW WE WORK</button>
                 </div>
-                <div class="col-2 mx-auto">
-                </div>
+            </section>
+            </div>
+            <div class="col-2 mx-auto">
+            </div>
             </div>
         </article>
     </main>
-    <footer class="container-fluid bg-light">
+    <footer class="container-fluid bg-light bg-pattern-footer-desktop">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-lg-10 col-md-12 pt-4 text-lg-start text-sm-center">
+                    <a class="navbar-brand" href="#"><img src="./img/logo.svg" alt="logo"></a>
+                </div>
+                <div class="col-lg-2 col-md-6 d-flex ps-5 justify-content-between pt-4 mx-auto">
+                    <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-pinterest"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row text-primary px-2 py-4">
+                <hr>
+            </div>
+
+            <div class="row cust-text">
+                <div class="footer-links col-lg-3 col-md-6 d-flex flex-column text-primary mb-4">
+                    <p class="h5 footer-titles fw-bold">OUR COMPANY</p>
+                    <a href="#!">HOW WE WORK</a>
+                    <a href="#!">WHY INSURE?</a>
+                    <a href="#!">VIEW PLANS</a>
+                    <a href="#!">REVIEWS</a>
+                </div>
+                <div class="footer-links col-lg-3 col-md-6 d-flex flex-column text-primary mb-4">
+                    <p class="h5 footer-titles fw-bold">HELP ME</p>
+                    <a href="#!">FAQ</a>
+                    <a href="#!">TERMS OF USE</a>
+                    <a href="#!">PRIVACY POLICY</a>
+                    <a href="#!">COOKIES</a>
+                </div>
+                <div class="footer-links col-lg-3 col-md-6 d-flex flex-column text-primary mb-4">
+                    <p class="h5 footer-titles fw-bold">CONTACT</p>
+                    <a href="#!">SALES</a>
+                    <a href="#!">SUPPORT</a>
+                    <a href="#!">LIVE CHAT</a>
+                </div>
+                <div class="footer-links col-lg-3 col-md-6 d-flex flex-column text-primary mb-4">
+                    <p class="h5 footer-titles fw-bold">OTHERS</p>
+
+                    <a href="#!">CAREERS</a>
+                    <a href="#!">PRESS</a>
+                    <a href="#!">LICENSES</a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
